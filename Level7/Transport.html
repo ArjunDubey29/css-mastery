@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale</title>
+    <style>
+        .hh{
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            border-radius: 5px;
+            transition: all 0.5s ease-in-out 0s;
+            position: relative;
+            top: 150px;
+            left: 550px;
+        }
+        #one{background-color: aqua;}
+        #two{background-color: red;}
+        #thre{background-color: violet;}
+        #four{background-color: yellow;}
+        #one:hover{transform: translate(-50px);}
+        #two:hover{transform: translate(50px, 50px);}
+        #thre:hover{transform: translateX(50px);}
+        #four:hover{transform: translateY(50px);}
+    </style>
+</head>
+<body>
+    <div id="one" class="hh">2x Scale</sup></div>
+    <div id="two" class="hh">4x Scale</sup></div>
+    <div id="thre" class="hh">X axis Scale</sub></div>
+    <div id="four" class="hh">Y axis Scale</div>
+</body>
+</html>

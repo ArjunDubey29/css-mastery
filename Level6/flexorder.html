@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Prop</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #heading {
+        /* text-align: center; */
+        margin-left: 160px;
+      }
+      #container {
+        height: 300px;
+        width: 600px;
+        border: 3px solid black;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        /* flex-direction: column-reverse; */
+        flex-direction: row;
+        justify-content: center;
+        background-color: lavender;
+      }
+      .aa {
+        height: 75px;
+        width: 75px;
+        background-color: chartreuse;
+        margin: 5px;
+        border: 3px solid black;
+      }
+      #one {
+        order: 3;
+      }
+      #two {
+        order: 1;
+      }
+      #three {
+        order: 4;
+      }
+      #four {
+        order: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Flex Container</h1>
+    <div id="container">
+      <div id="one" class="aa">FlexItem: 1</div>
+      <div id="two" class="aa">FlexItem: 2</div>
+      <div id="three" class="aa">FlexItem: 3</div>
+      <div id="four" class="aa">FlexItem: 4</div>
+    </div>
+  </body>
+</html>

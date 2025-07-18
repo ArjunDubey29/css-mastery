@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skew</title>
+    <style>
+        .hh{
+            display: inline-block;
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            border-radius: 5px;
+            transition: all 0.2s ease-in-out 0s;
+            position: relative;
+            top: 150px;
+            left: 550px;
+        }
+        #one{background-color: aqua;}
+        #two{background-color: red;}
+        #thre{background-color: violet;}
+        #four{background-color: yellow;}
+        #one:hover{transform: Skew(5deg);}
+        #two:hover{transform: Skew(40deg);}
+        #thre:hover{transform: skew(60deg);}
+        #four:hover{transform: skew(90deg);}
+    </style>
+</head>
+<body>
+    <div id="one" class="hh">1</sup></div>
+    <div id="two" class="hh">2</sup></div>
+    <div id="thre" class="hh">3</sub></div>
+    <div id="four" class="hh">4</div>
+</body>
+</html>

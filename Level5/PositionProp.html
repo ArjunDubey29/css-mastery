@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Prop</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      .box {
+        height: 70px;
+        width: 70px;
+        background-color: red;
+        border: 4px solid black;
+        margin: 20px;
+      }
+      #divv1 {
+        position: static;
+      }
+      #divv2 {
+        position: relative;
+        top: 20px;
+        left: 90px;
+      }
+      #divv3 {
+        position: fixed;
+        top: 20px;
+        left: 90px;
+      }
+      #divv4 {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="divv1" class="box">1 Static</div>
+    <div id="divv2" class="box">2 Relative</div>
+    <div id="divv3" class="box">3 Fixed</div>
+    <div id="divv4" class="box">4 Absolute</div>
+  </body>
+</html>
